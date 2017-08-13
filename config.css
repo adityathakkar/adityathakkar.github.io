@@ -22,7 +22,7 @@ body {
 }
 .navbar .navbar-collapse {
   text-align: center;
-}
+}   
 #navicon {
     font-size:large;
 }
@@ -52,3 +52,5 @@ body {
 @font-face {
     font-family: TestFont2;
     src:url(infini-romain.otf);
+}
+    
