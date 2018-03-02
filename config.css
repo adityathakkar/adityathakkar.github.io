@@ -4,11 +4,14 @@ p.padding {
     font-size: large;
 }
 h1, h3 {
+    font-family: 'Playfair Display', serif;
     font-size: 60px;
 }
 a {
+    font-family: 'Playfair Display', serif;
 }
 body { 
+    font-family: 'Playfair Display', serif;
     padding-top: 50px;
     padding-bottom: 60px;
 }
@@ -26,7 +29,6 @@ body {
 .img-circle {
     border-radius: 50%;
     border-width: thick;
-    border-color: cyan;
     width: 35em;
     border: 100px;
 }
@@ -40,4 +42,5 @@ body {
     
 }
 .link {
+    font-family: 'Playfair Display', serif;
 }
