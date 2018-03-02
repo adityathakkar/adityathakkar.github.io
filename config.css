@@ -2,14 +2,11 @@ p.padding {
     padding-right: 17%;
     padding-left: 17%;
     font-size: large;
-    font-family: TestFont2;
 }
 h1, h3 {
     font-size: 60px;
-    font-family: TestFont;
 }
 a {
-   font-family: TestFont; 
 }
 body { 
     padding-top: 50px;
@@ -43,14 +40,4 @@ body {
     
 }
 .link {
-            font-family: TestFont2; 
 }
-@font-face {
-   font-family: TestFont;
-   src: url(MonasticPro.otf);
-}
-@font-face {
-    font-family: TestFont2;
-    src:url(infini-romain.otf);
-}
-    
