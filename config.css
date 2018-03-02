@@ -29,7 +29,7 @@ body {
 .img-circle {
     border-radius: 100%;
     border-width: thick;
-    width: 15em;
+    width: 20em;
     border: 100px;
 }
 .navbar .navbar-brand {
