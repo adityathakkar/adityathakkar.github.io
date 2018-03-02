@@ -27,9 +27,9 @@ body {
     font-size:large;
 }
 .img-circle {
-    border-radius: 50%;
+    border-radius: 100%;
     border-width: thick;
-    width: 35em;
+    width: 15em;
     border: 100px;
 }
 .navbar .navbar-brand {
