@@ -2,6 +2,7 @@ p.padding {
     padding-right: 17%;
     padding-left: 17%;
     font-size: large;
+    /* Try changing padding- to margin- if frames are needed */ 
 }
 h1, h3 {
     font-family: 'Playfair Display', serif;
@@ -43,4 +44,10 @@ body {
 }
 .link {
     font-family: 'Playfair Display', serif;
+}
+.frame {
+    border-right: 1.5px solid black;
+    border-left: 1.5px solid black;
+    margin-left: 18%;
+    margin-right: 18%;
 }
