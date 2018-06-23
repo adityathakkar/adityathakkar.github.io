@@ -1,19 +1,20 @@
 p.padding {
     padding-right: 17%;
     padding-left: 17%;
-    font-size: large;
-    /* Try changing padding- to margin- if frames are needed */ 
+    font-size: 19px;
+    /* Try changing padding- to margin- if frames are needed */
 }
 h1, h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', sans-serif;
     font-size: 60px;
 }
 a {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', sans-serif;
 }
-body { 
-    font-family: 'Playfair Display', serif;
-    padding-top: 50px;
+body {
+    font-family: 'Cormorant Garamond', sans-serif;
+    /*padding-top: 50px;*/
+    padding-top: 20px;
     padding-bottom: 60px;
 }
 .navbar .navbar-nav {
@@ -23,7 +24,7 @@ body {
 }
 .navbar .navbar-collapse {
   text-align: center;
-}   
+}
 #navicon {
     font-size:large;
 }
@@ -35,15 +36,15 @@ body {
 }
 .navbar .navbar-brand {
     cursor: pointer;
-    padding-top: 10px;    
+    padding-top: 10px;
     margin-left:15px;
     margin-right:15px;
 }
 .icon {
-    
+
 }
 .link {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', sans-serif;
 }
 .frame {
     border-right: 1.5px solid black;
