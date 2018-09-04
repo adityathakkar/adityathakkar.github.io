@@ -1,5 +1,5 @@
 p.padding {
-    font-weight: 400;
+    font-weight: 200;
     padding-right: 17%;
     padding-left: 17%;
     font-size: 19px;
@@ -10,6 +10,20 @@ h1, h3 {
     font-size: 70px;
 }
 a {
+    font-family: 'Cormorant Garamond', sans-serif;
+}
+
+.nav-link {
+    color: black;
+
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+h2 {
+    text-align: center;
     font-family: 'Cormorant Garamond', sans-serif;
 }
 body {
@@ -53,3 +67,11 @@ body {
     margin-left: 18%;
     margin-right: 18%;
 }
+
+/*#border-div {
+    background-color: gray;
+}*/
+
+/*#content-div {
+    border: 10px solid gray;
+}*/
