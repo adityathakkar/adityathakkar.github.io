@@ -9,17 +9,33 @@ h1, h3 {
     font-family: 'Cormorant Garamond', sans-serif;
     font-size: 70px;
 }
+
+h5 { 
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 35px;
+}
+
+
 a {
     font-family: 'Cormorant Garamond', sans-serif;
 }
 
+.nav-link:visited {
+    color: black;
+}
+
 .nav-link {
     color: black;
-
 }
 
 .nav-link:hover {
     color: black;
+}
+
+#writing-card { 
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+
 }
 
 h2 {
@@ -62,15 +78,32 @@ body {
     font-family: 'Cormorant Garamond', sans-serif;
 }
 .frame {
-    border-right: 1.5px solid black;
-    border-left: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    border-top: 1.5px solid black;
     margin-left: 18%;
     margin-right: 18%;
+    padding: 10px;
+}
+
+/*.frame:hover {
+    background: #dee0e2;
+}*/
+
+.card-title  {
+    color: black;
+}
+
+.card-title: visited { 
+    colour: black;
 }
 
 /*#border-div {
     background-color: gray;
 }*/
+
+#date {
+    color: black;
+}
 
 /*#content-div {
     border: 10px solid gray;
