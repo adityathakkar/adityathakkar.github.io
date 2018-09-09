@@ -6,15 +6,9 @@ p.padding {
     color: #898b8e;
     /* Try changing padding- to margin- if frames are needed */
 }
-
 h1, h3 {
     font-family: 'Cormorant Garamond', sans-serif;
     font-size: 70px;
-}
-
-h2 {
-    font-family: 'Cormorant Garamond', sans-serif;
-    display: inline-block;
 }
 
 
@@ -22,9 +16,6 @@ a {
     font-family: 'Cormorant Garamond', sans-serif;
 }
 
-.nav-link:visited {
-    color: black;
-}
 
 .nav-link {
     color: black;
@@ -33,36 +24,37 @@ a {
 .nav-link:hover {
     color: black;
     text-decoration: underline;
+
 }
 
 #writing-card { 
     border-radius: 25px;
     border: 2px solid #73AD21;
+
 }
 
+h2 {
+    font-family: 'Cormorant Garamond', sans-serif;
+    display: inline-block;
 
-
+}
 body {
     font-family: 'Cormorant Garamond', sans-serif;
     /*padding-top: 50px;*/
     padding-top: 20px;
     padding-bottom: 60px;
 }
-
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
 }
-
 .navbar .navbar-collapse {
   text-align: center;
 }
-
 #navicon {
     font-size:large;
 }
-
 .img-circle {
     border-radius: 100%;
     border-width: thick;
@@ -78,7 +70,6 @@ body {
 .icon {
 
 }
-
 .link { 
     font-family: 'Cormorant Garamond', sans-serif;
 }
@@ -86,11 +77,11 @@ body {
 .frame {
     border-bottom: 1.5px solid black;
     border-top: 1.5px solid black;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 17%;
+    margin-right: 17%;
     padding: 10px;
 }
-
+ 
 /* Highlight background in off white on mouseover */
 
 /*.frame:hover {
@@ -100,26 +91,33 @@ body {
 .card-title  {
     color: black;
     font-family: 'Cormorant Garamond', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .card-title: visited { 
     color: black;
 }
 
-.subtitle {
-    font-size: 19px;
-    color: #898b8e;
-}
 
 .date {
-    color: black;
+    font-weight: 200;
+    padding-right: 17%;
+    padding-left: 17%;
+    color: black;   
     font-size: 19px;
 }
 
 .article-title {
     font-family: 'Cormorant Garamond', sans-serif;
-    margin: auto; 
+    font-size: 50px;
+    color: #EB6864;
+    padding-right: 17%;
+    padding-left: 17%;
 } 
 
-
+/*.article {
+    border-bottom: 1.5px solid black;
+    border-top: 1.5px solid black;
+    margin-left: 18%;
+    margin-right: 18%;
+} */
