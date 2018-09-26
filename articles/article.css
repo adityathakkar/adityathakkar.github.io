@@ -16,6 +16,21 @@ a {
     font-family: 'Cormorant Garamond', sans-serif;
 }
 
+.bold-num {
+    font-weight: bold;
+    color: black;
+}
+
+p.bold-num {
+    font-weight: bold;
+    color: black;
+}
+
+a.bold-num {
+    font-weight: bold;
+    color: black;
+}
+
 
 .nav-link {
     color: black;
