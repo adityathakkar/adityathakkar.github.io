@@ -31,6 +31,12 @@ a.bold-num {
     color: black;
 }
 
+.copyright { 
+    text-align: center;
+    font-size: 13px;
+    /*text-decoration: underline;*/
+}
+
 
 .nav-link {
     color: black;

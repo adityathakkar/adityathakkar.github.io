@@ -40,6 +40,12 @@ a {
     border: 2px solid #73AD21;
 }
 
+.copyright { 
+    text-align: center;
+    font-size: 13px;
+    /*text-decoration: underline;*/
+}
+
 
 
 body {
