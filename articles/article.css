@@ -1,5 +1,5 @@
 p.padding {
-    font-weight: 200;
+    font-weight: 150;
     padding-right: 17%;
     padding-left: 17%;
     font-size: 19px;
@@ -9,6 +9,11 @@ p.padding {
 h1, h3 {
     font-family: 'Cormorant Garamond', sans-serif;
     font-size: 70px;
+    font-weight: 400;
+}
+
+h5 {
+    font-weight: 400;
 }
 
 
@@ -27,7 +32,7 @@ p.bold-num {
 }
 
 a.bold-num {
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: black;
 }
 
@@ -57,6 +62,7 @@ a.bold-num {
 h2 {
     font-family: 'Cormorant Garamond', sans-serif;
     display: inline-block;
+    font-weight: 200;
 
 }
 body {

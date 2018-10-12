@@ -7,14 +7,17 @@ p.padding {
     /* Try changing padding- to margin- if frames are needed */
 }
 
-h1, h3 {
+
+h1, h3, h5 {
     font-family: 'Cormorant Garamond', sans-serif;
     font-size: 70px;
+    font-weight: 400;
 }
 
 h2 {
     font-family: 'Cormorant Garamond', sans-serif;
     display: inline-block;
+    font-weight: 400;
 }
 
 
