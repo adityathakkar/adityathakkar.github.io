@@ -10,7 +10,7 @@ p.padding {
 
 h1, h3, h5 {
     font-family: 'Cormorant Garamond', sans-serif;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 400;
 }
 
@@ -20,23 +20,40 @@ h2 {
     font-weight: 400;
 }
 
+.nav-link {
+    color: black;
+    font-size: 50px;
+}
+
+
+.nav-link:hover {
+    color: #e22620;
+    cursor: pointer;
+    -webkit-transition: color 300ms linear;
+    -ms-transition: color 300ms linear;
+    transition: color 300ms linear;
+}
+
+
+.home-link {
+    color: black;
+    font-size: 80px;
+}
+
+.home-link:hover {
+    color: #e22620;
+    cursor: pointer;
+    -webkit-transition: color 300ms linear;
+    -ms-transition: color 300ms linear;
+    transition: color 300ms linear;
+}
+
+
 
 a {
     font-family: 'Cormorant Garamond', sans-serif;
 }
 
-.nav-link:visited {
-    color: black;
-}
-
-.nav-link {
-    color: black;
-}
-
-.nav-link:hover {
-    color: black;
-    text-decoration: underline;
-}
 
 #writing-card { 
     border-radius: 25px;
@@ -56,34 +73,60 @@ body {
     /*padding-top: 50px;*/
     padding-top: 20px;
     padding-bottom: 60px;
+    /*background: rgb(224, 228, 229);*/
 }
 
-.navbar .navbar-nav {
+
+/*.navbar .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
-}
+}*/
 
-.navbar .navbar-collapse {
-  text-align: center;
-}
+/*.navbar .navbar-collapse {
+    text-align: center;
+}*/
+
+
 
 #navicon {
     font-size:large;
 }
 
 .img-circle {
-    border-radius: 100%;
-    border-width: thick;
+    /*border-radius: 25%;*/
+    /*border-width: thick;*/
     width: 20em;
-    border: 100px;
+    height: 20*1.33em;
+    /*border: 100px;*/
+    /*-webkit-filter:  sepia(100);*/
+    /*-webkit-filter: drop-shadow(1px 1px 1px black) */
+
 }
+
+
+.img-about {
+    /*border-radius: 25%;*/
+    /*border-width: thick;*/
+    width: 17em;
+    height: 17*1.33em;
+    /*border: 100px;*/
+    /*-webkit-filter:  sepia(100);*/
+    /*-webkit-filter: drop-shadow(1px 1px 1px black) */
+
+}
+
+
+
 .navbar .navbar-brand {
     cursor: pointer;
-    padding-top: 10px;
+   /* padding-top: 10px;
     margin-left:15px;
-    margin-right:15px;
+    margin-right:15px;*/
+    horizontal-align: center;
 }
+
+
 .icon {
 
 }

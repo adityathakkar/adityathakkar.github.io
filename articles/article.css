@@ -8,7 +8,7 @@ p.padding {
 }
 h1, h3 {
     font-family: 'Cormorant Garamond', sans-serif;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 400;
 }
 
@@ -19,6 +19,14 @@ h5 {
 
 a {
     font-family: 'Cormorant Garamond', sans-serif;
+}
+
+.nav-link:hover {
+    color: #EB6864;
+    cursor: pointer;
+    -webkit-transition: color 300ms linear;
+    -ms-transition: color 300ms linear;
+    transition: color 300ms linear;
 }
 
 .bold-num {
@@ -45,12 +53,6 @@ a.bold-num {
 
 .nav-link {
     color: black;
-}
-
-.nav-link:hover {
-    color: black;
-    text-decoration: underline;
-
 }
 
 #writing-card { 
